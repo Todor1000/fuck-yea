@@ -1,0 +1,29 @@
+double ans = 0;
+Console.Write("Choice to write by decimal, octal or binary");
+string choice=Console.ReadLine().ToLower();
+Console.Write("Your number: ");
+int x =int.Parse(Console.ReadLine());
+    
+switch(choice) 
+{
+    case "decimal":
+//unfinished code to add
+        break;
+    case "binary ":
+        for (double i = 0; x > 0; i++)
+        {
+            int s = x % 10;
+            ans += s * Math.Pow(2, i);
+            x = x / 10;
+        }
+        Console.WriteLine(ans);
+        break;
+    case "octal":
+        for (double i = 0; x > 0; i++)
+        {
+            int s = x % 10;
+            ans += s * Math.Pow(8, i);
+            x = x / 10;
+        }
+        Console.WriteLine(ans);
+        break;

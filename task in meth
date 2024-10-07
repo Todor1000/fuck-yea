@@ -1,13 +1,20 @@
 double ans = 0;
-Console.Write("Choice to write by decimal, octal or binary");
-string choice=Console.ReadLine().ToLower();
+Console.Write("Choice to write by decimal, octal or binary: ");
+string choice = Console.ReadLine().ToLower();
 Console.Write("Your number: ");
-int x =int.Parse(Console.ReadLine());
-    
-switch(choice) 
+int x = int.Parse(Console.ReadLine());
+string answ = string.Empty;
+switch (choice)
 {
     case "decimal":
-//unfinished code to add
+       
+        while (x > 0)
+        {
+            answ += (x % 2).ToString();
+            x /= 2;
+        }
+        var rans =new string(answ.Reverse().ToArray()) ;
+        Console.Write(rans);
         break;
     case "binary ":
         for (double i = 0; x > 0; i++)
@@ -16,7 +23,8 @@ switch(choice)
             ans += s * Math.Pow(2, i);
             x = x / 10;
         }
-        Console.WriteLine(ans);
+        var rans1 = new string(answ.Reverse().ToArray());
+        Console.WriteLine(rans1);
         break;
     case "octal":
         for (double i = 0; x > 0; i++)
@@ -25,5 +33,7 @@ switch(choice)
             ans += s * Math.Pow(8, i);
             x = x / 10;
         }
-        Console.WriteLine(ans);
+        var rans2 = new string(answ.Reverse().ToArray());
+        Console.WriteLine(rans2);
         break;
+}

@@ -1,0 +1,16 @@
+C:\Users\PC11-204\source\repos\the_project\the_project\bin\Release\the_project.exe.config
+C:\Users\PC11-204\source\repos\the_project\the_project\bin\Release\the_project.exe
+C:\Users\PC11-204\source\repos\the_project\the_project\bin\Release\the_project.pdb
+C:\Users\PC11-204\source\repos\the_project\the_project\obj\Release\the_project.csproj.AssemblyReference.cache
+C:\Users\PC11-204\source\repos\the_project\the_project\obj\Release\the_project.Start.resources
+C:\Users\PC11-204\source\repos\the_project\the_project\obj\Release\the_project.Geography.resources
+C:\Users\PC11-204\source\repos\the_project\the_project\obj\Release\the_project.Historical_Figures.resources
+C:\Users\PC11-204\source\repos\the_project\the_project\obj\Release\the_project.History.resources
+C:\Users\PC11-204\source\repos\the_project\the_project\obj\Release\the_project.Lose.resources
+C:\Users\PC11-204\source\repos\the_project\the_project\obj\Release\the_project.Meth.resources
+C:\Users\PC11-204\source\repos\the_project\the_project\obj\Release\the_project.Programing.resources
+C:\Users\PC11-204\source\repos\the_project\the_project\obj\Release\the_project.Properties.Resources.resources
+C:\Users\PC11-204\source\repos\the_project\the_project\obj\Release\the_project.csproj.GenerateResource.cache
+C:\Users\PC11-204\source\repos\the_project\the_project\obj\Release\the_project.csproj.CoreCompileInputs.cache
+C:\Users\PC11-204\source\repos\the_project\the_project\obj\Release\the_project.exe
+C:\Users\PC11-204\source\repos\the_project\the_project\obj\Release\the_project.pdb
